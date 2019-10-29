@@ -1,0 +1,38 @@
+################################################################
+# Legend for the variables:
+################################################################
+# GIK.NAME : Name of the City Electoral Committee [text];
+# TIK.NAME : Name of the Territorial Electoral Committee [text];
+# UIK.NAME : Name of the Polling Station Electoral Committee [text];
+# MO.NAME : Name of the Municipality [text];
+# MO.DISTRICT : Municipal District [text];
+# LAT.ik : Polling station office location: Latitude [numeric];
+# LON.ik : Polling station office location: Longitude [numeric];
+# LAT.voteroom : Polling station vote room location: Latitude [numeric];
+# LON.voteroom : Polling station vote room location: Longitude [numeric];
+# UIK.NAME.short : Name of the Polling Station Electoral Committee, abbreviated [text];
+# TIK : Territorial Electoral Committee Numeric Code [integer];
+# UIK : Polling station Numeric Code [integer];
+# VOTERS : Number of woters registered with the Poling Station [integer];
+# BALL.RECEIVED : Number of blank ballots received [integer];
+# BALL.ISS.UIK.DAYOFVOTE : Number of blank ballots issued at the polling station on the day of vote [integer];
+# BALL.ISS.EXTRA : Number of blank ballots issued outside the polling station on the day of vote [integer];
+# BALL.CANCELLED : Number of blank ballots cancelled [integer];
+# BALL.PORTABLE_BOXES : Number of ballots found in the portable ballot boxes [integer];
+# BALL.STATIONARY_BOXES : Number of ballots found in the stationary ballot boxes [integer];
+# BALL.INVALID : Number of invalid ballots cast [integer];
+# BALL.VALID : Number of valid ballots cast [integer];
+# BALL.LOST : Number of ballots lost [integer];
+# BALL.NOT.RECORDED : Number of blank ballots received by the polling station from the Territorial Electoral Commission but not reported in BULL.RECEIVED [integer];
+# AMOSOV : Number of ballots bcast for Mikhail Amosov [integer];
+# BEGLOV : Number of ballots cast for Alexander Beglov [integer];
+# TIKHONOVA : Number of ballots cast for Nadezhda Tikhonova [integer];
+# 
+# St. Petersburg governor elections September 08, 2019 data.
+# The data file contains 2021 rows and 26 columns of tab delimited text 
+# [UTF-8, Unix-style line endings, \n (LF)].
+# Data source : http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&vrn=27820001217413&region=78&prver=0&pronetvd=null
+# Retrieved from the source and reshaped in a tab delimited text file
+# by Alexei Kouprianov : alexei.kouprianov@gmail.com
+# The same text is placed at the end of the data file commented with '#'
+################################################################
